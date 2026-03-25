@@ -1,0 +1,257 @@
+Dario Amodei
+
+The Adolescence of Technology 
+
+Confronting and Overcoming the Risks of Powerful AI
+
+January 2026
+
+There is a scene in the movie version of Carl Sagan’s book Contact where
+the main character, an astronomer who has detected the first radio
+signal from an alien civilization, is being considered for the role of
+humanity’s representative to meet the aliens. The international panel
+interviewing her asks, “If you could ask [the aliens] just one question,
+what would it be?” Her reply is: “I’d ask them, ‘How did you do it? How
+did you evolve, how did you survive this technological adolescence
+without destroying yourself?” When I think about where humanity is now
+with AI—about what we’re on the cusp of—my mind keeps going back to that
+scene, because the question is so apt for our current situation, and I
+wish we had the aliens’ answer to guide us. I believe we are entering a
+rite of passage, both turbulent and inevitable, which will test who we
+are as a species. Humanity is about to be handed almost unimaginable
+power, and it is deeply unclear whether our social, political, and
+technological systems possess the maturity to wield it.
+
+In my essay Machines of Loving Grace, I tried to lay out the dream of a
+civilization that had made it through to adulthood, where the risks had
+been addressed and powerful AI was applied with skill and compassion to
+raise the quality of life for everyone. I suggested that AI could
+contribute to enormous advances in biology, neuroscience, economic
+development, global peace, and work and meaning. I felt it was important
+to give people something inspiring to fight for, a task at which both AI
+accelerationists and AI safety advocates seemed—oddly—to have failed.
+But in this current essay, I want to confront the rite of passage
+itself: to map out the risks that we are about to face and try to begin
+making a battle plan to defeat them. I believe deeply in our ability to
+prevail, in humanity’s spirit and its nobility, but we must face the
+situation squarely and without illusions.
+
+As with talking about the benefits, I think it is important to discuss
+risks in a careful and well-considered manner. In particular, I think it
+is critical to:
+
+- Avoid doomerism. Here, I mean “doomerism” not just in the sense of
+  believing doom is inevitable (which is both a false and
+  self-fulfilling belief), but more generally, thinking about AI risks
+  in a quasi-religious way.¹ Many people have been thinking in an
+  analytic and sober way about AI risks for many years, but it’s my
+  impression that during the peak of worries about AI risk in 2023–2024,
+  some of the least sensible voices rose to the top, often through
+  sensationalistic social media accounts. These voices used off-putting
+  language reminiscent of religion or science fiction, and called for
+  extreme actions without having the evidence that would justify them.
+  It was clear even then that a backlash was inevitable, and that the
+  issue would become culturally polarized and therefore gridlocked.² As
+  of 2025–2026, the pendulum has swung, and AI opportunity, not AI risk,
+  is driving many political decisions. This vacillation is unfortunate,
+  as the technology itself doesn’t care about what is fashionable, and
+  we are considerably closer to real danger in 2026 than we were
+  in 2023. The lesson is that we need to discuss and address risks in a
+  realistic, pragmatic manner: sober, fact-based, and well equipped to
+  survive changing tides.
+- Acknowledge uncertainty. There are plenty of ways in which the
+  concerns I’m raising in this piece could be moot. Nothing here is
+  intended to communicate certainty or even likelihood. Most obviously,
+  AI may simply not advance anywhere near as fast as I imagine.³ Or,
+  even if it does advance quickly, some or all of the risks discussed
+  here may not materialize (which would be great), or there may be other
+  risks I haven’t considered. No one can predict the future with
+  complete confidence—but we have to do the best we can to plan anyway.
+- Intervene as surgically as possible. Addressing the risks of AI will
+  require a mix of voluntary actions taken by companies (and private
+  third-party actors) and actions taken by governments that bind
+  everyone. The voluntary actions—both taking them and encouraging other
+  companies to follow suit—are a no-brainer for me. I firmly believe
+  that government actions will also be required to some extent, but
+  these interventions are different in character because they can
+  potentially destroy economic value or coerce unwilling actors who are
+  skeptical of these risks (and there is some chance they are right!).
+  It’s also common for regulations to backfire or worsen the problem
+  they are intended to solve (and this is even more true for rapidly
+  changing technologies). It’s thus very important for regulations to be
+  judicious: they should seek to avoid collateral damage, be as simple
+  as possible, and impose the least burden necessary to get the job
+  done.⁴ It is easy to say, “No action is too extreme when the fate of
+  humanity is at stake!,” but in practice this attitude simply leads to
+  backlash. To be clear, I think there’s a decent chance we eventually
+  reach a point where much more significant action is warranted, but
+  that will depend on stronger evidence of imminent, concrete danger
+  than we have today, as well as enough specificity about the danger to
+  formulate rules that have a chance of addressing it. The most
+  constructive thing we can do today is advocate for limited rules while
+  we learn whether or not there is evidence to support stronger ones.⁵
+
+With all that said, I think the best starting place for talking about
+AI’s risks is the same place I started from in talking about its
+benefits: by being precise about what level of AI we are talking about.
+The level of AI that raises civilizational concerns for me is the
+powerful AI that I described in Machines of Loving Grace. I’ll simply
+repeat here the definition that I gave in that document:
+
+<blockquote>
+
+By “powerful AI,” I have in mind an AI model—likely similar to today’s
+LLMs in form, though it might be based on a different architecture,
+might involve several interacting models, and might be trained
+differently—with the following properties:
+
+- In terms of pure intelligence, it is smarter than a Nobel Prize winner
+  across most relevant fields: biology, programming, math, engineering,
+  writing, etc. This means it can prove unsolved mathematical theorems,
+  write extremely good novels, write difficult codebases from scratch,
+  etc.
+- In addition to just being a “smart thing you talk to,” it has all the
+  interfaces available to a human working virtually, including text,
+  audio, video, mouse and keyboard control, and internet access. It can
+  engage in any actions, communications, or remote operations enabled by
+  this interface, including taking actions on the internet, taking or
+  giving directions to humans, ordering materials, directing
+  experiments, watching videos, making videos, and so on. It does all of
+  these tasks with, again, a skill exceeding that of the most capable
+  humans in the world.
+- It does not just passively answer questions; instead, it can be given
+  tasks that take hours, days, or weeks to complete, and then goes off
+  and does those tasks autonomously, in the way a smart employee would,
+  asking for clarification as necessary.
+- It does not have a physical embodiment (other than living on a
+  computer screen), but it can control existing physical tools, robots,
+  or laboratory equipment through a computer; in theory, it could even
+  design robots or equipment for itself to use.
+- The resources used to train the model can be repurposed to run
+  millions of instances of it (this matches projected cluster sizes by
+  ~2027), and the model can absorb information and generate actions at
+  roughly 10–100x human speed. It may, however, be limited by the
+  response time of the physical world or of software it interacts with.
+- Each of these million copies can act independently on unrelated tasks,
+  or, if needed can all work together in the same way humans would
+  collaborate, perhaps with different subpopulations fine-tuned to be
+  especially good at particular tasks.
+
+We could summarize this as a “country of geniuses in a datacenter.”
+
+</blockquote>
+
+As I wrote in Machines of Loving Grace, powerful AI could be as little
+as 1–2 years away, although it could also be considerably further out.⁶
+Exactly when powerful AI will arrive is a complex topic that deserves an
+essay of its own, but for now I’ll simply explain very briefly why I
+think there’s a strong chance it could be very soon.
+
+My co-founders at Anthropic and I were among the first to document and
+track the “scaling laws” of AI systems—the observation that as we add
+more compute and training tasks, AI systems get predictably better at
+essentially every cognitive skill we are able to measure. Every few
+months, public sentiment either becomes convinced that AI is “hitting a
+wall” or becomes excited about some new breakthrough that will
+“fundamentally change the game,” but the truth is that behind the
+volatility and public speculation, there has been a smooth, unyielding
+increase in AI’s cognitive capabilities.
+
+We are now at the point where AI models are beginning to make progress
+in solving unsolved mathematical problems, and are good enough at coding
+that some of the strongest engineers I’ve ever met are now handing over
+almost all their coding to AI. Three years ago, AI struggled with
+elementary school arithmetic problems and was barely capable of writing
+a single line of code. Similar rates of improvement are occurring across
+biological science, finance, physics, and a variety of agentic tasks. If
+the exponential continues—which is not certain, but now has a
+decade-long track record supporting it—then it cannot possibly be more
+than a few years before AI is better than humans at essentially
+everything.
+
+In fact, that picture probably underestimates the likely rate of
+progress. Because AI is now writing much of the code at Anthropic, it is
+already substantially accelerating the rate of our progress in building
+the next generation of AI systems. This feedback loop is gathering steam
+month by month, and may be only 1–2 years away from a point where the
+current generation of AI autonomously builds the next. This loop has
+already started, and will accelerate rapidly in the coming months and
+years. Watching the last 5 years of progress from within Anthropic, and
+looking at how even the next few months of models are shaping up, I can
+feel the pace of progress, and the clock ticking down.
+
+In this essay, I’ll assume that this intuition is at least somewhat
+correct—not that powerful AI is definitely coming in 1–2 years,⁷ but
+that there’s a decent chance it does, and a very strong chance it comes
+in the next few. As with Machines of Loving Grace, taking this premise
+seriously can lead to some surprising and eerie conclusions. While in
+Machines of Loving Grace I focused on the positive implications of this
+premise, here the things I talk about will be disquieting. They are
+conclusions that we may not want to confront, but that does not make
+them any less real. I can only say that I am focused day and night on
+how to steer us away from these negative outcomes and towards the
+positive ones, and in this essay I talk in great detail about how best
+to do so.
+
+I think the best way to get a handle on the risks of AI is to ask the
+following question: suppose a literal “country of geniuses” were to
+materialize somewhere in the world in ~2027. Imagine, say, 50 million
+people, all of whom are much more capable than any Nobel Prize winner,
+statesman, or technologist. The analogy is not perfect, because these
+geniuses could have an extremely wide range of motivations and behavior,
+from completely pliant and obedient, to strange and alien in their
+motivations. But sticking with the analogy for now, suppose you were the
+national security advisor of a major state, responsible for assessing
+and responding to the situation. Imagine, further, that because AI
+systems can operate hundreds of times faster than humans, this “country”
+is operating with a time advantage relative to all other countries: for
+every cognitive action we can take, this country can take ten.
+
+What should you be worried about? I would worry about the following
+things:
+
+1.  Autonomy risks. What are the intentions and goals of this country?
+    Is it hostile, or does it share our values? Could it militarily
+    dominate the world through superior weapons, cyber operations,
+    influence operations, or manufacturing?
+2.  Misuse for destruction. Assume the new country is malleable and
+    “follows instructions”—and thus is essentially a country of
+    mercenaries. Could existing rogue actors who want to cause
+    destruction (such as terrorists) use or manipulate some of the
+    people in the new country to make themselves much more effective,
+    greatly amplifying the scale of destruction?
+3.  Misuse for seizing power. What if the country was in fact built and
+    controlled by an existing powerful actor, such as a dictator or
+    rogue corporate actor? Could that actor use it to gain decisive or
+    dominant power over the world as a whole, upsetting the existing
+    balance of power?
+4.  Economic disruption. If the new country is not a security threat in
+    any of the ways listed in #1–3 above but simply participates
+    peacefully in the global economy, could it still create severe risks
+    simply by being so technologically advanced and effective that it
+    disrupts the global economy, causing mass unemployment or radically
+    concentrating wealth?
+5.  Indirect effects. The world will change very quickly due to all the
+    new technology and productivity that will be created by the new
+    country. Could some of these changes be radically destabilizing?
+
+I think it should be clear that this is a dangerous situation—a report
+from a competent national security official to a head of state would
+probably contain words like “the single most serious national security
+threat we’ve faced in a century, possibly ever.” It seems like something
+the best minds of civilization should be focused on.
+
+Conversely, I think it would be absurd to shrug and say, “Nothing to
+worry about here!” But, faced with rapid AI progress, that seems to be
+the view of many US policymakers, some of whom deny the existence of any
+AI risks, when they are not distracted entirely by the usual tired old
+hot-button issues.⁸ Humanity needs to wake up, and this essay is an
+attempt—a possibly futile one, but it’s worth trying—to jolt people
+awake.
+
+To be clear, I believe if we act decisively and carefully, the risks can
+be overcome—I would even say our odds are good. And there’s a hugely
+better world on the other side of it. But we need to understand that
+this is a serious civilizational challenge. Below, I go through the five
+categories of risk laid out above, along with my thoughts on how to
+address them.
