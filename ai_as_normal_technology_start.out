@@ -1,6 +1,6 @@
 Computing perplexity for ai_as_normal_technology_start.txt...
 Tokenizing text...
-Found 3475 tokens
+Found 3475 tokens.
 Processing 3475 tokens in 4 window(s).
 Window 1/4: nll=4595.2071
 Window 2/4: nll=1618.5140
