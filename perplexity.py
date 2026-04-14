@@ -35,3 +35,8 @@ def parse_args():
             "--begin-context-tokens + --stride δεν πρέπει να ξεπερνά το --n-ctx"
         )
     return args
+def stable_log_probs(row):
+    max_val = max(row)
+    shifted = [x - max_val for x in row]
+    log_sum_exp = math.log(sum(math.exp(x) for x in shifted))
+    return [x - log_sum_exp for x in shifted]
